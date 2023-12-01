@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<< Title >>-->
+    <title>Matias - Personal Portfolio Template</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/img/logo/favicon.png" />
+
+    <!-- ------- aos animation -->
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <!-- -------- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      crossorigin="anonymous"
+    />
+     <!-- tailwind css -->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <script src="./assets/js/tailwindCongfig.js"></script>
+     
+     <!-- ---- main css -->
+     <link href="./assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header
+      class="header relative w-full border-b border-b-clr_cusborder z-10 xxl:after:block after:hidden after:absolute after:right-[calc(20%-30px)] after:top-0 after:w-[1px] after:h-full after:content:[''] after:bg-clr_cusborder xxl:before:block before:hidden before:absolute before:left-[calc(15%-40px)] before:top-0 before:w-[1px] before:h-full before:content:[''] before:bg-clr_cusborder"
+    >
+      <div class="xxl:max-w-[1805px] xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3 mx-auto px-3">
+        <div class="flex justify-between items-center w-full relative py-5">
+          <div class="main__logo">
+            <a href="index.html" class="block xl:w-[150px] w-[100px]">
+              <img
+                src="./assets/img/logo/logo.png"
+                alt="logo"
+                class="w-full h-full object-contain"
+              />
+            </a>
+          </div>
+          <ul
+            class="menus flex lg:flex-row flex-col lg:items-center opacity-0 invisible lg:opacity-100 lg:visible lg:gap-[14px] gap-0 fixed z-50 lg:static top-20 left-0 w-full lg:w-auto bg-clr_subtitle min-h-screen lg:min-h-full lg:bg-transparent duration-500 origin-top px-3"
+          >
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4"
+            >
+              <a
+                href="./index.html"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4"
+            >
+              <a
+                href="./index.html#about"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base"
+              >
+                About
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4"
+            >
+              <a
+                href="./index.html#projects"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base"
+              >
+                Work
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4 group/dropdown dropdown"
+            >
+              <a
+                href="./index.html#services"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base"
+              >
+                Services
+              </a>
+              <ul
+                class="lg:absolute lg:block hidden static top-[50px] left-0 w-[250px] px-5 py-2 leading-9 z-50 transition-all lg:bg-white lg:shadow-mainShadow justify-center gap-[5px] before:absolute before:content-[''] before:-top-[17.6px] before:left-[26px] before:w-0 before:h-0 before:border-l-[13px] before:border-l-transparent before:border-r-[13px] before:border-r-transparent lg:before:border-b-[18px] lg:before:border-b-white lg:opacity-0 lg:invisible lg:translate-y-11 duration-500 group-hover/dropdown:opacity-100 group-hover/dropdown:visible group-hover/dropdown:translate-y-0 dropdownItem"
+              >
+                <li>
+                  <a
+                    href="./services.html"
+                    class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="./serviceDetails.html"
+                    class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block"
+                  >
+                    Service Details
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4"
+            >
+              <a
+                href="./index.html#testimonial"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base"
+              >
+                TESTIMONIAL
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4 group/dropdown dropdown"
+            >
+              <a
+                href="./index.html#blog"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base"
+              >
+                Blog
+              </a>
+              <ul
+                class="lg:absolute lg:block hidden static top-[50px] left-0 w-[250px] px-5 py-2 leading-9 z-50 transition-all lg:bg-white lg:shadow-mainShadow justify-center gap-[5px] before:absolute before:content-[''] before:-top-[17.6px] before:left-[26px] before:w-0 before:h-0 before:border-l-[13px] before:border-l-transparent before:border-r-[13px] before:border-r-transparent lg:before:border-b-[18px] lg:before:border-b-white lg:opacity-0 lg:invisible lg:translate-y-11 duration-500 group-hover/dropdown:opacity-100 group-hover/dropdown:visible group-hover/dropdown:translate-y-0 dropdownItem"
+              >
+                <li>
+                  <a
+                    href="./blogs.html"
+                    class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="./blogDetails.html"
+                    class="lg:text-clr_body text-white duration-500 hover:text-clr_base hover:pl-3 block"
+                  >
+                    Blog Details
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4"
+            >
+              <a
+                href="./contact.html"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+          <div class="flex items-center gap-4">
+            <a
+              href=""
+              class="flex items-center gap-2 xxl:px-[26px] xxl:py-[19px] lg:px-[16px] lg:py-[9px] px-[11px] py-[7px] font-medium text-lg capitalize relative bg-clr_base overflow-hidden rounded-[5px] transition-all text-clr_subtitle max-h-[58px] before:absolute before:content-[''] before:bottom-full before:bg-[#aad302] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0"
+            >
+              <span class="text-sm xl:text-lg z-10 relative duration-500">
+                Let's Talk
+              </span>
+              <span>
+                <i
+                  class="bi bi-arrow-right text-xl z-10 relative duration-500"
+                ></i>
+              </span>
+            </a>
+            <div class="header-bar lg:hidden">
+              <i
+                class="bi bi-x text-[32px] text-clr_white cursor-pointer hidden menuCloseIcon"
+              ></i>
+
+              <i
+                class="bi bi-list text-[32px] text-clr_white cursor-pointer menuActiveIcon"
+              ></i>
+            </div>
+            <div
+              class="drawerActiveIcon xl:w-[58px] xl:h-[58px] w-[39px] h-[39px] rounded-md flex items-center justify-center bg-clr_white cursor-pointer"
+            >
+              <i
+                class="bi bi-list lg:text-[32px] text-[22px] text-clr_title"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- --------- Drawer -->
+        <div
+          class="subside__barmenu w-80 h-full fixed z-50 top-0 duration-500 overflow-y-scroll bg-black -right-80 drawer"
+        >
+          <div
+            class="remove__click flex justify-center items-center w-10 h-10 m-[10px] bg-clr_base ml-auto p-[5px] rounded-md hover:cursor-pointer drawerCloseIcon"
+          >
+            <i class="bi-x-lg text-[22px] text-clr_mtitle"> </i>
+          </div>
+          <div class="grid py-10 px-5">
+            <a href="" class="mb-5">
+              <img src="./assets/img/logo/logo.png" alt="img" />
+            </a>
+            <p class="text-sm mb-10 text-clr_pra break-words leading-normal">
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+              consectetur, aliquam quaerats voluptatem. Ut enim ad minima
+              veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem
+              velit esse quam nihil
+            </p>
+            <div class="sub__contact-left grid gap-6 mb-10">
+              <div>
+                <div>
+                  <span
+                    class="block mb-2 uppercase text-clr_pra font-bold text-sm"
+                  >
+                    address
+                  </span>
+                  <span
+                    class=" capitalize text-white font-medium leading-[120%]"
+                  >
+                    Victoria Street London,
+                  </span>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span
+                    class="block mb-2 uppercase text-clr_pra font-bold text-sm"
+                  >
+                    email
+                  </span>
+                  <a
+                    href=""
+                    class=" capitalize text-white font-medium leading-[120%]"
+                  >
+                    matias999@.com
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span
+                    class="block mb-2 uppercase text-clr_pra font-bold text-sm"
+                  >
+                    call now
+                  </span>
+                  <a
+                    href=""
+                    class=" capitalize text-white font-medium leading-[120%]"
+                  >
+                    +98 4758 2154 021
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="lg:mb-20 mb-14 relative">
+              <ul class="social flex gap-[14px]">
+                <li>
+                  <a
+                    href=""
+                    class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center"
+                  >
+                    <i class="bi-facebook text-clr_title"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center"
+                  >
+                    <i class="bi-twitter text-clr_title"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center"
+                  >
+                    <i class="bi-linkedin text-clr_title"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center"
+                  >
+                    <i class="bi-youtube text-clr_title"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a
+              href=""
+              class="flex justify-center items-center gap-2 font-medium px-[30px] pt-5 pb-[21px] text-lg leading-[120%] capitalize relative bg-clr_base overflow-hidden rounded-[5px] duration-500 text-clr_subtitle before:absolute before:content-[''] before:bottom-full before:bg-[#aad302] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0"
+            >
+              <span class="z-10 relative duration-500">
+                <i class="bi-chevron-right"> </i>
+              </span>
+              <span class="z-10 relative duration-500"> Let's Talk </span>
+            </a>
+          </div>
+        </div>
+        <!-- --------- Drawer -->
+      </div>
+    </header>
+    <!-- header End -->
+
+    <!-- Page heading start -->
+    <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3 pt_120 pb_120">
+      <div class="flex justify-center">
+        <div>
+          <div class="text-center">
+            <h1
+              class="lg:text-6xl sm:text-4xl text-3xl text-white lg:mb-10 sm:mb-9 mb-6 font-bold"
+            >
+              Services All
+            </h1>
+            <ul
+              class="flex items-center justify-center sm:flex-nowrap flex-wrap gap-3"
+            >
+              <li class="text-2xl font-caveat">
+                <a href="/" class="text-white">Home</a>
+              </li>
+              <li class="text-white text-2xl">/</li>
+              <li class="text-clr_base font-caveat text-2xl">Services All</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page heading end -->
+
+    <!-- ----------- Services Start -->
+    <section id="services" class=" pb_120">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3">
+        <div>
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2"
+            >
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 01 </span>
+                <div >
+                  <h5
+                    class="text-base lg:text-xl font-semibold text-white mb-2"
+                  >
+                    Designer
+                  </h5>
+                  <h2
+                    class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]"
+                  >
+                    <a href="serviceDetails.html" class="text-white duration-500">
+                      Illustration Design
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. sunt in culpa qui
+                officia deserunt mollit
+              </p>
+            </div>
+
+            <a
+              href="serviceDetails.html"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#1D1D1D] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+            >
+              <i
+                class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2"
+            >
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 02 </span>
+                <div >
+                  <h5
+                    class="text-base lg:text-xl font-semibold text-white mb-2"
+                  >
+                    Branding
+                  </h5>
+                  <h2
+                    class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]"
+                  >
+                    <a href="serviceDetails.html" class="text-white duration-500">
+                      Business Branding
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. sunt in culpa qui
+                officia deserunt mollit
+              </p>
+            </div>
+
+            <a
+              href="serviceDetails.html"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#1D1D1D] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+            >
+              <i
+                class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2"
+            >
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 03 </span>
+                <div >
+                  <h5
+                    class="text-base lg:text-xl font-semibold text-white mb-2"
+                  >
+                    UI/UX Design
+                  </h5>
+                  <h2
+                    class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]"
+                  >
+                    <a href="serviceDetails.html" class="text-white duration-500">
+                      Web UI/UX Design
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. sunt in culpa qui
+                officia deserunt mollit
+              </p>
+            </div>
+
+            <a
+              href="serviceDetails.html"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#1D1D1D] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+            >
+              <i
+                class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2"
+            >
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 04 </span>
+                <div >
+                  <h5
+                    class="text-base lg:text-xl font-semibold text-white mb-2"
+                  >
+                    Web Design
+                  </h5>
+                  <h2
+                    class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]"
+                  >
+                    <a href="serviceDetails.html" class="text-white duration-500">
+                      Application Design
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. sunt in culpa qui
+                officia deserunt mollit
+              </p>
+            </div>
+
+            <a
+              href="serviceDetails.html"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#1D1D1D] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+            >
+              <i
+                class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2"
+            >
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 05 </span>
+                <div >
+                  <h5
+                    class="text-base lg:text-xl font-semibold text-white mb-2"
+                  >
+                    SEO Analytics
+                  </h5>
+                  <h2
+                    class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]"
+                  >
+                    <a href="serviceDetails.html" class="text-white duration-500">
+                      Digital Marketing
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. sunt in culpa qui
+                officia deserunt mollit
+              </p>
+            </div>
+
+            <a
+              href="serviceDetails.html"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#1D1D1D] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+            >
+              <i
+                class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------- Services End -->
+
+    <!-- ----------- Metting start -->
+    <section
+      class="bg-common_bg bg-center bg-no-repeat bg-cover rounded-[10px] overflow-hidden pt_120 pb_120"
+    >
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3">
+        <div class="grid lg:grid-cols-[58%_auto] gap-20 items-center">
+          <div>
+            <!-- ---------- Heading -->
+            <div class="pb-[50px]">
+              <span
+                class="text-2xl font-caveat text-clr_base relative flex items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
+                <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+                Need a Project?
+              </span>
+              <h2
+                class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white max-w-[620px]"
+                data-aos="fade-down"
+                data-aos-duration="1600"
+              >
+                Let's Work Together. Fixed A Meeting
+              </h2>
+            </div>
+            <!-- ---------- Heading -->
+            <!-- ---------- Metting system -->
+            <div>
+              <div
+                class="border-b border-b-[rgb(39,38,38)] hover:border-b-clr_base duration-500 transition-all"
+              ></div>
+              <div
+                class="hover:border-b hover:border-b-clr_base flex ga-5 items-center md:gap-5 gap-4 duration-500 transition-all border-b border-b-[rgb(38_37_37)] lg:pb-[30px] pb-5 lg:pt-[30px] pt-[20px]"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <span
+                  class="w-[60px] h-[60px] rounded-full bg-clr_base flex justify-center items-center"
+                >
+                  <i class="bi-envelope text-[26px] text-clr_title"></i>
+                </span>
+                <span class="">
+                  <span class="text-clr_pra md:text-lg text-base mb-1 block">
+                    Email
+                  </span>
+                  <a
+                    href=""
+                    class="text-white md:text-xl text-base font-medium"
+                  >
+                    davidmatias3</a
+                  >
+                </span>
+              </div>
+              <div
+                class="hover:border-b hover:border-b-clr_base flex ga-5 items-center md:gap-5 gap-4 duration-500 border-b border-b-[rgb(38_37_37)] lg:pb-[30px] pb-5 lg:pt-[30px] pt-[20px]"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
+                <span
+                  class="w-[60px] h-[60px] rounded-full bg-clr_base flex justify-center items-center"
+                >
+                  <i class="bi-geo-alt text-[26px] text-clr_title"></i>
+                </span>
+                <span class="">
+                  <span class="text-clr_pra md:text-lg text-base mb-1 block">
+                    Location
+                  </span>
+                  <a
+                    href=""
+                    class="text-white md:text-xl text-base font-medium"
+                  >
+                    Victoria Street London, England
+                  </a>
+                </span>
+              </div>
+            </div>
+            <!-- ---------- Metting system -->
+          </div>
+          <!-- --------- Right side / image -->
+          <div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+              <img src="./assets/img/project/project-need.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------- Metting End -->
+
+    <!-- ----------- Pricing Start -->
+    <section class="pt_120 pb_120">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3">
+        <!-- --------- Heading -->
+        <div
+          class="text-center max-w-[920px] mx-auto md:mb-[60px] sm:mb-[50px] mb-[45px]"
+        >
+          <p
+            class="text-2xl font-caveat text-clr_base relative flex justify-center items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+            Choose Your Plan
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+          </p>
+          <h2
+            class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white lg:leading-[120%] md:leading-tight leading-9"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            The Best Pricing Plans To Get Your Best
+          </h2>
+        </div>
+        <!-- --------- Heading -->
+
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 justify-center"
+        >
+          <!-- Card 1 -->
+          <div class="" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="before:hidden border border-clr_cusborder py-5 px-[18px] rounded-[10px] duration-500 hover:border-clr_base"
+            >
+              <div
+                class="w-[90px] h-[90px] flex items-center justify-center rounded-lg mb-10 bg-clr_base"
+              >
+                <img src="./assets/img/project/basic.png" alt="img" />
+              </div>
+              <h4 class="text-white lg:mb-6 mb-4 text-2xl font-semibold">
+                Basic Plan
+              </h4>
+              <h2
+                class="lg:mb-10 lg:pb-10 mb-7 pb-7 flex text-6xl border-b border-b-clr_cusborder text-white font-bold"
+              >
+                $35
+                <span class="text-xl self-end leading-[2.2] font-medium">
+                  /per month
+                </span>
+              </h2>
+              <ul class="pri__list mb-10">
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]">
+                    Web Development
+                  </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]">
+                    Mobile Development
+                  </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]"> Advetising </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]"> Advetising </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]"> Graphic design </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]">
+                    Project management
+                  </span>
+                </li>
+              </ul>
+              <a
+                href=""
+                class="flex items-center justify-center gap-2 w-full bg-clr_base py-[30px] pt-5 pb-[21px] font-medium text-lg leading-[120%] overflow-hidden capitalize relative rounded-[5px] duration-500 before:absolute before:content-[''] before:bottom-full before:bg-[#aad302] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0"
+              >
+                <span class="text-clr_title relative z-10 duration-500">
+                  Start My Project Now
+                </span>
+                <span>
+                  <i
+                    class="bi-arrow-right text-clr_title text-xl relative z-10 duration-500"
+                  >
+                  </i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="before:hidden border border-clr_cusborder py-5 px-[18px] rounded-[10px] duration-500 hover:border-clr_base bg-clr_base"
+            >
+              <div
+                class="w-[90px] h-[90px] flex items-center justify-center rounded-lg mb-10 bg-clr_title"
+              >
+                <img src="./assets/img/project/warranty.png" alt="img" />
+              </div>
+              <h4 class="text-white lg:mb-6 mb-4 text-2xl font-semibold">
+                Ultra Plan
+              </h4>
+              <h2
+                class="lg:mb-10 lg:pb-10 mb-7 pb-7 flex text-6xl border-b border-b-clr_cusborder text-white font-bold"
+              >
+                $65
+                <span class="text-xl self-end leading-[2.2] font-medium">
+                  /per month
+                </span>
+              </h2>
+              <ul class="pri__list mb-10">
+                <li class="flex items-center gap-3 mb-2">
+                  <span
+                    class="w-[9px] h-[9px] bg-clr_mtitle rounded-full"
+                  ></span>
+                  <span class="text-clr_mtitle text-[15px]">
+                    Web Development
+                  </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span
+                    class="w-[9px] h-[9px] bg-clr_mtitle rounded-full"
+                  ></span>
+                  <span class="text-clr_mtitle text-[15px]">
+                    Mobile Development
+                  </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span
+                    class="w-[9px] h-[9px] bg-clr_mtitle rounded-full"
+                  ></span>
+                  <span class="text-clr_mtitle text-[15px]"> Advetising </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span
+                    class="w-[9px] h-[9px] bg-clr_mtitle rounded-full"
+                  ></span>
+                  <span class="text-clr_mtitle text-[15px]"> Advetising </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span
+                    class="w-[9px] h-[9px] bg-clr_mtitle rounded-full"
+                  ></span>
+                  <span class="text-clr_mtitle text-[15px]">
+                    Graphic design
+                  </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span
+                    class="w-[9px] h-[9px] bg-clr_mtitle rounded-full"
+                  ></span>
+                  <span class="text-clr_mtitle text-[15px]">
+                    Project management
+                  </span>
+                </li>
+              </ul>
+              <a
+                href=""
+                class="flex items-center justify-center gap-2 w-full bg-clr_mtitle py-[30px] pt-5 pb-[21px] font-medium text-lg leading-[120%] overflow-hidden capitalize relative rounded-[5px] duration-500 before:absolute before:content-[''] before:bottom-full before:bg-[#aad302] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0"
+              >
+                <span class="text-white relative z-10 duration-500">
+                  Start My Project Now
+                </span>
+                <span>
+                  <i
+                    class="bi-arrow-right text-white text-xl relative z-10 duration-500"
+                  >
+                  </i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="before:hidden border border-clr_cusborder py-5 px-[18px] rounded-[10px] duration-500 hover:border-clr_base"
+            >
+              <div
+                class="w-[90px] h-[90px] flex items-center justify-center rounded-lg mb-10 bg-clr_base"
+              >
+                <img src="./assets/img/project/premium-quality.png" alt="img" />
+              </div>
+              <h4 class="text-white lg:mb-6 mb-4 text-2xl font-semibold">
+                Gold Plan
+              </h4>
+              <h2
+                class="lg:mb-10 lg:pb-10 mb-7 pb-7 flex text-6xl border-b border-b-clr_cusborder text-white font-bold"
+              >
+                $95
+                <span class="text-xl self-end leading-[2.2] font-medium">
+                  /per month
+                </span>
+              </h2>
+              <ul class="pri__list mb-10">
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]">
+                    Web Development
+                  </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]">
+                    Mobile Development
+                  </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]"> Advetising </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]"> Advetising </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]"> Graphic design </span>
+                </li>
+                <li class="flex items-center gap-3 mb-2">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <span class="text-clr_pra text-[15px]">
+                    Project management
+                  </span>
+                </li>
+              </ul>
+              <a
+                href=""
+                class="flex items-center justify-center gap-2 w-full bg-clr_base py-[30px] pt-5 pb-[21px] font-medium text-lg leading-[120%] overflow-hidden capitalize relative rounded-[5px] duration-500 before:absolute before:content-[''] before:bottom-full before:bg-[#aad302] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0"
+              >
+                <span class="text-clr_title relative z-10 duration-500">
+                  Start My Project Now
+                </span>
+                <span>
+                  <i
+                    class="bi-arrow-right text-clr_title text-xl relative z-10 duration-500"
+                  >
+                  </i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------- Pricing End -->
+
+    <!-- ----------- Work Process start -->
+    <section
+      class="bg-common_bg bg-center bg-no-repeat bg-cover rounded-[10px] overflow-hidden sm:p-[60px] py-[30px] px-[10px] pt_120 pb_120"
+    >
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3">
+        <!-- --------- Heading -->
+        <div
+          class="text-center max-w-[920px] mx-auto md:mb-[60px] sm:mb-[50px] mb-[45px]"
+        >
+          <p
+            class="text-2xl font-caveat text-clr_base relative flex justify-center items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+            Working Process
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+          </p>
+          <h2
+            class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white lg:leading-[120%] md:leading-tight leading-9"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            Your Dream Website In Just Few Steps
+          </h2>
+        </div>
+        <!-- --------- Heading -->
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
+          <!-- Card 1 -->
+          <div data-aos="flip-up" data-aos-duration="500">
+            <div
+              class="overflow-hidden duration-500 border border-clr_cusborder rounded-[10px] p-[30px] relative after:absolute after:w-[50px] after:h-[50px] after:bottom-0 after:right-0 after:content-[''] after:bg-[#121212] after:rounded-tl-[100px] after:rounded-tr-[20px] after:duration-500 hover:border-clr_base hover:after:bg-clr_base"
+            >
+              <h2
+                class="text-white lg:mb-6 mb-4 capitalize sm:text-[40px] text-3xl leading-[120%] font-semibold"
+              >
+                Concept
+              </h2>
+              <p class="lg:mb-[30px] mb-5 text-clr_pra text-lg">
+                Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut
+                fugit
+              </p>
+              <ul>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Reviewing any existing branding</p>
+                </li>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">
+                    Target audience and competitors research
+                  </p>
+                </li>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Developing a strategy</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div data-aos="flip-up" data-aos-duration="500">
+            <div
+              class="overflow-hidden duration-500 border border-clr_cusborder rounded-[10px] p-[30px] relative after:absolute after:w-[50px] after:h-[50px] after:bottom-0 after:right-0 after:content-[''] after:bg-[#121212] after:rounded-tl-[100px] after:rounded-tr-[20px] after:duration-500 hover:border-clr_base hover:after:bg-clr_base"
+            >
+              <h2
+                class="text-white lg:mb-6 mb-4 capitalize sm:text-[40px] text-3xl leading-[120%] font-semibold"
+              >
+                Design
+              </h2>
+              <p class="lg:mb-[30px] mb-5 text-clr_pra text-lg">
+                Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut
+                fugit
+              </p>
+              <ul>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Developing wireframes and mockup</p>
+                </li>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Choosing typography, color palettes,</p>
+                </li>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Refining the design</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div data-aos="flip-up" data-aos-duration="500">
+            <div
+              class="overflow-hidden duration-500 border border-clr_cusborder rounded-[10px] p-[30px] relative after:absolute after:w-[50px] after:h-[50px] after:bottom-0 after:right-0 after:content-[''] after:bg-[#121212] after:rounded-tl-[100px] after:rounded-tr-[20px] after:duration-500 hover:border-clr_base hover:after:bg-clr_base"
+            >
+              <h2
+                class="text-white lg:mb-6 mb-4 capitalize sm:text-[40px] text-3xl leading-[120%] font-semibold"
+              >
+                Webflow
+              </h2>
+              <p class="lg:mb-[30px] mb-5 text-clr_pra text-lg">
+                Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut
+                fugit
+              </p>
+              <ul>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Testing the website thoroughly launch</p>
+                </li>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Choosing typography, color palettes,</p>
+                </li>
+                <li
+                  class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0"
+                >
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Refining the design</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------- Work Process End -->
+
+    <footer>
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3">
+        <div class="pt_120 pb-[120px]">
+          <div
+            class="fl text-[10.5vw] uppercase font-medium leading-none w-full xl:mb-[60px] sm:mb-10 mb-5 border border-clr_cusborder rounded-lg text-center p-[10px] text-white"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Get In Touch
+          </div>
+          <div class="flex md:flex-row flex-col justify-between gap-4">
+            <div class="basis-1/2 shrink">
+              <div>
+                <p
+                  class="xl:mb-[60px] lg:mb-10 mb-[10px] lg:text-2xl sm:text-lg text-[17px] text-white max-w-lg"
+                >
+                  Hello, I’m David Matias, Website & User Interface Designer
+                  based in London.
+                </p>
+                <a
+                  href=""
+                  class="text-white lg:text-4xl sm:text-[28px] text-lg underline capitalize"
+                >
+                  davidmatias333@.com
+                </a>
+              </div>
+            </div>
+            <div class="basis-1/2 shrink">
+              <div>
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <a
+                      href=""
+                      class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group"
+                    >
+                      Facebook
+                      <i
+                        class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"
+                      ></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href=""
+                      class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group"
+                    >
+                      Twitter
+                      <i
+                        class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"
+                      ></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href=""
+                      class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group"
+                    >
+                      Linkdin
+                      <i
+                        class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"
+                      ></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href=""
+                      class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group"
+                    >
+                      Webflow
+                      <i
+                        class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" bg-common_bg bg-no-repeat bg-center bg-cover">
+        <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl  xl mx-auto px-3">
+          <div
+            class="flex flex-col lg:flex-row items-center justify-between py-[34px] lg:flex-nowrap gap-4"
+          >
+            <p class="text-white text-lg">
+              Copyright © 2023
+              <a href="" class="text-clr_base"> Matias. </a>
+              All rights reserved.
+            </p>
+            <ul class="terms flex gap-[38px]">
+              <li>
+                <a
+                  href=""
+                  class="text-lg text-white duration-500 hover:text-clr_base"
+                >
+                  Terms & Condition
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-lg text-white duration-500 hover:text-clr_base"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+            <a
+              href=""
+              class=" w-10 h-[50px] bg-clr_base rounded-[5px] flex justify-center items-center"
+            >
+              <i class="bi-arrow-up text-lg"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
